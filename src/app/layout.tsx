@@ -1,17 +1,17 @@
-// app/layout.tsx or app/layout.js
-import ThemeProvider from "../../components/Theme/ThemeProvider";
+// app/layout.tsx
 import "./globals.css";
 
 
 export const metadata = {
-  title: "Your App",
+  title: "DrConnect",
+  description: "Find doctors and connect online",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+       {children}
       </body>
     </html>
   );

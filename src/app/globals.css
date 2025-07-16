@@ -1,21 +1,26 @@
 @import "tailwindcss";
 
-/* styles/globals.css */
 :root {
-  --bg-color: #ffffff;
-  --text-color: #111827;
-  --primary-color: #2563eb;
-  /* Add more variables as needed */
-}
+  /* Core Colors */
+  --background: #0A0A0A;       /* Primary dark background */
+  --foreground: #EDEDED;       /* Light text color */
+  --primary: #00aa7f;          /* Deep emerald green accent */
+  --secondary: #05472A;        /* Dark forest green (text/accent) */
+  --accent: #23d997;           /* Neon green (optional success state) */
 
-[data-theme='dark'] {
-  --bg-color: #000000;
-  --text-color: #006400;
-  --primary-color: #0cce87;
+  /* UI Colors */
+  --button-bg: #05472A;
+  --button-hover: #006c45;
+  --border: #2a2a2a;
+  --muted: #1e1e1e;
+  --card-bg: #111111;
+  --shadow: rgba(0, 0, 0, 0.4);
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
+  max-width: 1520px;
+  margin: 0 auto;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
