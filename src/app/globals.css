@@ -11,16 +11,30 @@
   /* UI Colors */
   --button-bg: #05472A;
   --button-hover: #006c45;
-  --border: #2a2a2a;
-  --muted: #1e1e1e;
+  --border: #3c3b3b;
+  --muted: #313131;
   --card-bg: #111111;
   --shadow: rgba(0, 0, 0, 0.4);
 }
 
 body {
-  max-width: 1520px;
+background: linear-gradient(to bottom right, #0a0a0a, #111827, #1f2937);
+  max-width: 1540px;
   margin: 0 auto;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+@keyframes fadeIn {
+  from{
+    opacity:0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity:1;
+    transform: translateX(0);
+  }
+  
 }
