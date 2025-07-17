@@ -9,7 +9,7 @@ import { doctors } from "../../utils/data";
 
 export default function DoctorSlider() {
   return (
-  <section className="text-white py-24">
+  <section className="text-white py-24 bg-[#0d1117]">
   <div className="max-w-7xl mx-auto px-4">
     <h2 className="text-5xl font-bold text-center mb-16 text-[var(--foreground)]">
       Experts

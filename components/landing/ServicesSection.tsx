@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 export default function Services() {
   return (
-    <section className="w-full  text-[var(--foreground)] py-20  bg-[#0d1117]">
+    <section className="w-full  text-[var(--foreground)] py-20  ">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Heading */}
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-[var(--accent)]">

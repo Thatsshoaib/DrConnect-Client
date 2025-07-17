@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HowItWorks = () => {
   return (
-   <section className="py-28 ">
+   <section className="py-28 bg-[#0d1117] ">
   <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-20">
     {/* Left Step List */}
     <div className="flex-1">

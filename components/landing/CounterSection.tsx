@@ -69,7 +69,7 @@ const CounterSection = () => {
         }
       `}</style>
 
-      <section className=" pt-20 lg:pt-28 pb-12 overflow-visible  bg-[#0d1117]">
+      <section className=" pt-20 lg:pt-28 pb-12 overflow-visible  ">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center relative z-10">
           {counters.map((item, index) => (
             <div

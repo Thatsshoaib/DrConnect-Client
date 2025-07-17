@@ -138,3 +138,28 @@ export const doctors = [
 ];
 
 
+// components/data/testimonialsData.ts
+
+export const testimonials = [
+  {
+    name: "Dr. Aisha Sharma",
+    role: "Dermatologist",
+    message:
+      "This platform has transformed how I connect with patients. The video consultation system is seamless and reliable.",
+    rating: 5,
+  },
+  {
+    name: "Rahul Mehta",
+    role: "Patient",
+    message:
+      "Booking appointments was never this easy. The interface is super intuitive and the doctors are very professional.",
+    rating: 5,
+  },
+  {
+    name: "Dr. Vikram Rao",
+    role: "Cardiologist",
+    message:
+      "A game-changer in digital healthcare. The support team is also very responsive and helpful.",
+    rating: 4,
+  },
+];

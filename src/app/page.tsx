@@ -4,6 +4,7 @@ import DoctorSlider from "../../components/landing/DoctorSlider";
 import Hero from "../../components/landing/HeroSection";
 import HowItWorks from "../../components/landing/Howitworks";
 import Services from "../../components/landing/ServicesSection";
+import TestimonialsSection from "../../components/landing/Testimonial";
 import Whoarewe from "../../components/landing/WhoAreWe";
 
 export default function Home() {
@@ -13,10 +14,11 @@ export default function Home() {
         <Header/>
       <Hero/>
       <Whoarewe/>
+      <CounterSection/>
       <DoctorSlider/>
       <Services/>
       <HowItWorks/>
-      <CounterSection/>
+      <TestimonialsSection/>
       </div>
     </>
   );
