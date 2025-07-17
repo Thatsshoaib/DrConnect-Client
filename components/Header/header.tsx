@@ -41,14 +41,22 @@ export default function Header() {
         </div>
 
         {/* Desktop Login */}
-        <div className="hidden md:flex items-center gap-4">
-          <button
-            className="bg-[var(--button-bg)] text-white px-6 py-1.5 rounded-full text-sm hover:bg-[var(--button-hover)] transition"
-            onClick={() => router.push("/register")}
-          >
-            Login
-          </button>
-        </div>
+{/* Desktop Auth Buttons */}
+<div className="hidden md:flex items-center gap-4">
+  <button
+    className="text-sm px-6 py-1.5 rounded-full text-white border border-white hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
+    onClick={() => router.push("/login")}
+  >
+    Login
+  </button>
+  <button
+    className="bg-[var(--button-bg)] text-white px-6 py-1.5 rounded-full text-sm hover:bg-[var(--button-hover)] transition"
+    onClick={() => router.push("/register")}
+  >
+    Sign Up
+  </button>
+</div>
+
       </div>
 
       {/* Mobile Slide-in Menu */}
@@ -91,17 +99,28 @@ export default function Header() {
           </div>
 
           {/* Login Button */}
-          <div className="mt-auto pt-6">
-            <button
-              className="w-full bg-[var(--button-bg)] text-white px-6 py-2 rounded-full text-sm hover:bg-[var(--button-hover)] transition-all duration-300"
-              onClick={() => {
-                setMenuOpen(false);
-                router.push("/register");
-              }}
-            >
-              Login
-            </button>
-          </div>
+          {/* Auth Buttons for Mobile */}
+<div className="mt-auto pt-6 flex flex-col gap-3">
+  <button
+    className="w-full bg-[var(--button-bg)] text-white px-6 py-2 rounded-full text-sm hover:bg-[var(--button-hover)] transition-all duration-300"
+    onClick={() => {
+      setMenuOpen(false);
+      router.push("/login");
+    }}
+  >
+    Login
+  </button>
+  <button
+    className="w-full text-sm text-white border border-white py-2 rounded-full hover:border-[var(--accent)] hover:text-[var(--accent)] transition"
+    onClick={() => {
+      setMenuOpen(false);
+      router.push("/register");
+    }}
+  >
+    Sign Up
+  </button>
+</div>
+
         </div>
       </div>
 

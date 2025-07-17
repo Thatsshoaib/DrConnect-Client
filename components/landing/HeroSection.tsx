@@ -22,13 +22,13 @@ export default function HeroSwiper() {
   >
     {heroslides.map((slide) => (
       <SwiperSlide key={slide.id}>
-        <div className="relative h-[100vh] md:h-[85vh] w-full overflow-hidden">
+        <div className="relative h-[100vh] md:h-[92vh] w-full overflow-hidden">
           {/* Background Image */}
           <Image
             src={slide.img}
             alt={slide.title1}
             fill
-            className="object-cover object-center brightness-90"
+            className="object-filld object-center brightness-90"
             priority
           />
 

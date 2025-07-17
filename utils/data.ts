@@ -1,4 +1,4 @@
-import { CalendarCheck, Search, Video, Bot ,Hospital , FileText, FolderArchive, FlaskConical, Headphones, HeartPulse, Stethoscope, AlertTriangle} from "lucide-react";
+import { CalendarCheck, Search, Video, Bot ,Hospital , FileText, FolderArchive, FlaskConical, Headphones, HeartPulse, Stethoscope, AlertTriangle } from "lucide-react";
 
 export const navLinks = [
   { label: "Home", href: "/" },
@@ -95,4 +95,46 @@ export const services = [
 },
 
 ];
+
+
+
+export const doctors = [
+  {
+    name: "Dr. Sneha Verma",
+    title: "Dermatologist",
+    desc: "Expert in treating all types of skin conditions including acne, eczema, and psoriasis.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+  {
+    name: "Dr. Arjun Mehta",
+    title: "Cosmetic Surgeon",
+    desc: "Specialized in non-surgical skin rejuvenation and anti-aging treatments.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+  {
+    name: "Dr. Priya Nair",
+    title: "Trichologist",
+    desc: "Focused on hair and scalp treatments using advanced therapies.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+  {
+    name: "Dr. Ravi Sharma",
+    title: "Plastic Surgeon",
+    desc: "Expert in aesthetic surgery and reconstructive procedures.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+  {
+    name: "Dr. Neha Khurana",
+    title: "Laser Specialist",
+    desc: "Skilled in laser treatments for pigmentation, scars, and hair removal.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+  {
+    name: "Dr. Karan Malhotra",
+    title: "Skin Consultant",
+    desc: "Providing personalized skin care regimens and consultations.",
+    image: "/assets/images/Howitworks1.jpg",
+  },
+];
+
 
