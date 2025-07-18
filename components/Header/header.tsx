@@ -4,6 +4,7 @@ import { navLinks } from "../../utils/data";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import routes from "../../lib/routes";
 
 export default function Header() {
   const router = useRouter();
@@ -45,7 +46,8 @@ export default function Header() {
 <div className="hidden md:flex items-center gap-4">
   <button
     className="text-sm px-6 py-1.5 rounded-full text-white border border-white hover:border-[var(--primary)] hover:text-[var(--primary)] transition"
-    onClick={() => router.push("/login")}
+    onClick={() => router.push(routes.LOGIN)}
+
   >
     Login
   </button>

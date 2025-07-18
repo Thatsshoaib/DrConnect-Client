@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/header";
 import CounterSection from "../../components/landing/CounterSection";
 import DoctorSlider from "../../components/landing/DoctorSlider";
@@ -6,6 +7,7 @@ import HowItWorks from "../../components/landing/Howitworks";
 import Services from "../../components/landing/ServicesSection";
 import TestimonialsSection from "../../components/landing/Testimonial";
 import Whoarewe from "../../components/landing/WhoAreWe";
+import Login from "./Login/LoginPage";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Services/>
       <HowItWorks/>
       <TestimonialsSection/>
+      <Footer/>
+     
       </div>
     </>
   );
