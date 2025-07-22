@@ -111,10 +111,7 @@ export default function Header() {
             </button>
             <button
               className="w-full text-sm text-white border border-white py-2 rounded-full hover:border-[var(--accent)] hover:text-[var(--accent)] transition"
-              onClick={() => {
-                setMenuOpen(false);
-                router.push("/register");
-              }}
+              onClick={() => router.push(routes.SIGNUP)}
             >
               Sign Up
             </button>
