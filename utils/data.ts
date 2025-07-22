@@ -163,3 +163,86 @@ export const testimonials = [
     rating: 4,
   },
 ];
+
+//hospitals data 
+
+
+export interface Hospital {
+  image: string;
+  name: string;
+  description: string;
+  location: string;
+  specialization: string;
+}
+
+
+export const hospitals: Hospital[] =[
+
+{
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Sunrise Multispeciality Hospital",
+    "description": "A state-of-the-art hospital offering world-class treatment and facilities.",
+    "location": "Mumbai, Maharashtra",
+    "specialization": "Cardiology"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Green Valley Health Centre",
+    "description": "Trusted for family care and comprehensive diagnostics.",
+    "location": "Bangalore, Karnataka",
+    "specialization": "General Medicine"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Lotus Orthopedic Institute",
+    "description": "Advanced orthopedic care with modern surgical techniques.",
+    "location": "Delhi",
+    "specialization": "Orthopedics"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "NeuroLife Brain Hospital",
+    "description": "Leading center for neurological care and brain surgery.",
+    "location": "Chennai, Tamil Nadu",
+    "specialization": "Neurology"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "CityCare Women's Hospital",
+    "description": "Comprehensive women’s health and maternity services.",
+    "location": "Hyderabad, Telangana",
+    "specialization": "Gynecology"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Hope Children's Hospital",
+    "description": "Pediatric super-specialty center for children of all ages.",
+    "location": "Pune, Maharashtra",
+    "specialization": "Pediatrics"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Divine Heart Institute",
+    "description": "Known for excellence in cardiac surgeries and heart transplants.",
+    "location": "Ahmedabad, Gujarat",
+    "specialization": "Cardiothoracic Surgery"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Rainbow Skin & Laser Clinic",
+    "description": "Cutting-edge treatment for dermatological conditions.",
+    "location": "Jaipur, Rajasthan",
+    "specialization": "Dermatology"
+  },
+  {
+    "image":"/assets/images/Howitworks1.jpg",
+    "name": "Shree Dental & Implant Center",
+    "description": "Specialists in cosmetic and implant dentistry.",
+    "location": "Lucknow, Uttar Pradesh",
+    "specialization": "Dentistry"
+  },
+ 
+]
+
+
+

@@ -7,22 +7,18 @@ import HowItWorks from "../../components/landing/Howitworks";
 import Services from "../../components/landing/ServicesSection";
 import TestimonialsSection from "../../components/landing/Testimonial";
 import Whoarewe from "../../components/landing/WhoAreWe";
-import Login from "./Login/LoginPage";
 
 export default function Home() {
   return (
-      <>
+    <>
       <div>
-        <Header/>
-      <Hero/>
-      <Whoarewe/>
-      <CounterSection/>
-      <DoctorSlider/>
-      <Services/>
-      <HowItWorks/>
-      <TestimonialsSection/>
-      <Footer/>
-     
+        <Hero />
+        <Whoarewe />
+        <CounterSection />
+        <DoctorSlider />
+        <Services />
+        <HowItWorks />
+        <TestimonialsSection />
       </div>
     </>
   );
